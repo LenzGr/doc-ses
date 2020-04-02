@@ -115,7 +115,7 @@
       <option>oplocks</option> (also known as SMB2+ leases) allow for improved
       performance through aggressive client caching, but are currently unsafe
       when Samba is deployed together with other &cephfs; clients, such as
-      kernel <literal>mount.cephfs</literal>, FUSE, or &ganesha;.
+      kernel <literal>mount.ceph</literal>, FUSE, or &ganesha;.
      </para>
      <para>
       Currently <option>kernel share modes</option> needs to be disabled in a
